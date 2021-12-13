@@ -1,32 +1,18 @@
-# labs06
-# Funnction
-### Bentuk flowchart
-![gambar1](ss/sf.png)
-```python
 from os import system
-```
-- diatas code untuk mengimport, untuk mendapatkan clear system pada system os
-
-```python
 nama1 = []
 nim1 = []
 tugas1 = []
 uts1 = []
 uas1 = []
 akhir1 = []
-```
-- diatas code untuk meembuat list/menampung data dalam bentuk list
 
-```python
+
 def judul():
     print("="*35)
     print("|     Daftar Nilai Mahasiswa      |")
     print("="*35)
-```
-- diatas code untuk menampilkan funngsi judul, karna ini function jadi kita bisa memanggil fungsi ini berkali kali, tanpa harus menulis ulang programnya, kita hanya perlu lmemanggilnya dengan cara mengetikan program *Contoh : fungsi()
 
 
-```python
 def menu():
     system("cls")
     print("="*37)
@@ -53,11 +39,8 @@ def menu():
         tidak = input("Menu Tidak Ada")
         system("cls")
         menu()
-```
-- diatas program untuk menampilkan fungsi menu, dengan ketentuan, jika menekan angka 1 maka akan menambah data, jika menekan angka 2 akan menampilkan data, angka 3 akan mengubah data, angka 4 menghapus data, dan angka 5 untuk menutup program
-### Tampilan programnya
-![gambar2](ss/s1.PNG)
-```python
+
+
 def tambah():
     system("cls")
     judul()
@@ -86,11 +69,8 @@ def tambah():
     print("Data Tersimpan".center(40))
     kembali = input("Kembali [Enter]")
     menu()
-```
-- diatas adalah code untuk membuat fungsi tambah
-### Tampilan programnya
-![gambar3](ss/s2.PNG)
-```python
+
+
 def tampilkan():
     system("cls")
     judul()
@@ -106,11 +86,7 @@ def tampilkan():
         print("-"*29)
     kembali = input("Kembali Tekan [Enter]")
     menu()
-```
-- diatas adalah code untuk membuat fungsi menampilkan data dalam list
-### Tampilan programnya
-![gambar4](ss/s3.PNG)
-```python
+
 def ubah():
     rubah = input("Ubah Biodata Tekan [B]   : ")
     if rubah == "B" or rubah == "b":
@@ -122,12 +98,7 @@ def ubah():
             nama1[i] = namabaru
     kembali = input("Kembali Tekan [Enter]")
     menu()
-```
-- diatas adalah code untuk membuat fungsi untuk merubah nama dalam data, dengan ketentuan, jika menekan angka 3 maka muncul konfirmasi dan harus menginputkan/menekan huruf b setelahnya juga harus menginputkan no urut data yang ingin di ubah
-### Tampilan programnya
-![gambar5](ss/s5.PNG)
-![gambar6](ss/s6.PNG)
-```python
+
 def hapus():
     system("cls")
     judul()
@@ -150,19 +121,9 @@ def hapus():
     print("Data Berhasil Di Hapus")
     kembali = input("Kembali Tekan [Enter]")
     menu()
-```
-- diatas adalah code untuk membuat fungsi menghapus salah satu dari data dalam list, jika menekan angka 4, selanjutnya kita harus menginputkan no  urut data yang ingin dihapus
-### Tampilan programnya
-![gambar7](ss/s4.PNG)
-```python
+
 def selesai():
     system("cls")
     menu()
 
 menu()
-```
-- diatas adalah program untuk fungsi mengakhiri program, dengan menekan angka 5 maka akan menyekesaikan program 
-## Program Selesai
-# Sekian Terimakasih
-
-
