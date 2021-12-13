@@ -126,6 +126,7 @@ def ubah():
 - diatas adalah code untuk membuat fungsi untuk merubah nama dalam data, dengan ketentuan, jika menekan angka 3 maka muncul konfirmasi dan harus menginputkan/menekan huruf b setelahnya juga harus menginputkan no urut data yang ingin di ubah
 ### Tampilan programnya
 ![gambar5](ss/s5.PNG)
+
 ![gambar6](ss/s6.PNG)
 ```python
 def hapus():
